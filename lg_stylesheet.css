@@ -1,0 +1,94 @@
+/* stylesheet.css */
+
+/* General Stylistic Elements */
+body {font-family: georgia,times,arial,helvetica; font-size: 26px;}
+strong {font-size: 125%;}
+
+/* Everything related to my Header bar */
+.header {
+    position: fixed;
+    z-index: 10;
+    border-bottom-style: double;
+    border-bottom-color: #00a3ff;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+#header_nav li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+
+#header_nav li:hover {
+    background-color: #ff0000;
+}
+
+#header_nav li:hover a {
+    color: #ffffff;
+}
+
+#header_nav a {
+    display:inline-block;
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 75%;
+    padding: 7px 15px;
+}
+
+
+
+/* Everything related to the Middle part of the page */
+.middle_section {
+    position:relative;
+    padding: 200px 0px 50px 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+
+/* Everything related to my Footer bar */
+.footer {
+    width: 100%;
+    bottom: 0;
+    border-top-style: double;
+    border-top-color: #00a3ff;
+    text-align: center;
+    position:relative;
+    left: 0;
+}
+
+#footer_text {
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+#footer_text li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+
+#footer_text li:hover {
+    background-color: #bdf4ff;
+}
+
+#footer_text li:hover a {
+    color: #ffffff;
+}
+
+#footer_text a {
+    display:inline-block;
+    text-decoration: none;
+    color: #bdf4ff;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 7px 15px;
+}
